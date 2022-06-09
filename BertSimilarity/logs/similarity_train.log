@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "similarity.py", line 5, in <module>
+    import pandas as pd
+  File "C:\Users\24121\AppData\Roaming\Python\Python37\site-packages\pandas\__init__.py", line 22, in <module>
+    from pandas.compat import (
+  File "C:\Users\24121\AppData\Roaming\Python\Python37\site-packages\pandas\compat\__init__.py", line 23, in <module>
+    from pandas.compat.pyarrow import (
+  File "C:\Users\24121\AppData\Roaming\Python\Python37\site-packages\pandas\compat\pyarrow.py", line 8, in <module>
+    _pa_version = pa.__version__
+AttributeError: module 'pyarrow' has no attribute '__version__'
